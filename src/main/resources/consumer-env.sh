@@ -1,0 +1,34 @@
+export TOPIC_LIST=backblaze_smart
+export KEY_DESERIALIZER=org.apache.kafka.common.serialization.StringDeserializer
+export VALUE_DESERIALIZER=org.apache.kafka.common.serialization.StringDeserializer
+export AUTO_OFFSET_RESET=earliest
+export GROUP_ID=kotlinclienttest
+export GROUP_INSTANCE_ID=kafkaclienttest_1
+export TOPIC_LIST=backblaze_smart
+export BOOTSTRAP_SERVERS=localhost:9092
+export FETCH_MIN_BYTES=1
+export HEARTBEAT_INTERVAL_MS=3000
+export MAX_PARTITION_FETCH_BYTES=1048576
+export SESSION_TIMEOUT_MS=10000
+export ALLOW_AUTO_CREATE_TOPICS=false
+export CLIENT_DNS_LOOKUP=default
+export CLIENT_ID=kafkaclient
+export AUTO_COMMIT_INTERVAL_MS=5000
+export REQUEST_TIMEOUT_MS=30000
+export MAX_POLL_RECORDS=500
+export MAX_POLL_INTERVAL_MS=300000
+export ENABLE_AUTO_COMMIT=false
+export DEFAULT_API_TIMEOUT_MS=60000
+export CONNECTIONS_MAX_IDLE_MS=540000
+export EXCLUDE_INTERNAL_TOPICS=true
+export SEND_BUFFER_BYTES=131072
+export RECEIVE_BUFFER_BYTES=65536
+
+export ISOLATION_LEVEL=read_committed
+
+export SECURITY_PROTOCOL=PLAINTEXT
+export SSL_KEYSTORE_LOCATION="../../../../resources/keystore.jks"
+export SSL_TRUSTSTORE_LOCATION="../../../../resources/truststore.jks"
+export SSL_KEYSTORE_PASSWORD="fastdata"
+export SSL_TRUSTSTORE_PASSWORD="fastdata"
+export SSL_KEY_PASSWORD="fastdata"
